@@ -20,14 +20,14 @@ function Welcome() {
  
     <div className='items-center justify-center grid grid-cols-1 md:grid-cols-2 gap-12  '>
 
-        <div className='flex flex-col items-center m-auto w-3/4 rounded-lg lg:w-[60%] '>
+        <div className='flex flex-col items-center m-auto w-2/4 rounded-lg lg:w-[60%] '>
           <img className='rounded-lg' src={Restaurant} alt=''/>
-            <h3 className='my-[0] text-white font-poppins text-2xl font-medium'>Restaurante</h3>
+            <h3 className='my-[0] text-white font-poppins text-2xl font-normal'>Restaurante</h3>
         </div>
 
-        <div className='flex flex-col items-center m-auto w-3/4 rounded-lg lg:w-[60%]' >
+        <div className='flex flex-col items-center m-auto w-2/4 rounded-lg lg:w-[60%]' >
           <img className='rounded-lg' src={Bar} alt=''/>
-          <h3 className='my-[0] text-white font-poppins text-2xl  font-medium z-10'>Bar</h3>
+          <h3 className='my-[0] text-white font-poppins text-2xl  font-normal z-10'>Bar</h3>
         </div>
     </div>
 
