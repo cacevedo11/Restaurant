@@ -31,7 +31,7 @@ function App() {
   ]);
 
   return (
-    <div className='max-h-screen overflow-hidden  box-border'>
+    <div className='max-h-screen  box-border'>
       <RouterProvider router={router} />
     </div>
   );

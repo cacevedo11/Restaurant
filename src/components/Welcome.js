@@ -1,8 +1,24 @@
  import React from 'react'
 import Typewriter from 'typewriter-effect';
-import Restaurant from '../Images/restaurant.jpg'
-import Bar from '../Images/bar.jpg'
-
+import Card from './Card';
+import Beef from '../Images/beef.png'
+import Cocktail from '../Images/cocktail.png'
+import Aguardiente from '../Images/aguardiente.png'
+import Aperitivo from '../Images/aperitivo.png'
+import Cognac from '../Images/cognac.png'
+import Comida from '../Images/comida.png'
+import Ensalada from '../Images/ensalada.png'
+import Gintonic from '../Images/gin-tonic.png'
+import Postres from '../Images/magdalena.png'
+import Entradas from '../Images/nuggets.png'
+import Compartir from '../Images/reunion.png'
+import Ron from '../Images/ron.png'
+import Sangria from '../Images/sangria.png'
+import Tequila from '../Images/tequila.png'
+import Vino from '../Images/vino.png'
+import Vodka from '../Images/vodka.png'
+import Whisky from '../Images/whisky.png'
+import Bebidas from '../Images/bebidas.png'
 
 function Welcome() {
   return (
@@ -18,17 +34,25 @@ function Welcome() {
       />
       </div>
  
-    <div className='items-center justify-center grid grid-cols-1 md:grid-cols-2 gap-12  '>
-
-        <div className='flex flex-col items-center m-auto w-2/4 rounded-lg lg:w-[60%] '>
-          <img className='rounded-lg' src={Restaurant} alt=''/>
-            <h3 className='my-[0] text-white font-poppins text-2xl font-normal'>Restaurante</h3>
-        </div>
-
-        <div className='flex flex-col items-center m-auto w-2/4 rounded-lg lg:w-[60%]' >
-          <img className='rounded-lg' src={Bar} alt=''/>
-          <h3 className='my-[0] text-white font-poppins text-2xl  font-normal z-10'>Bar</h3>
-        </div>
+    <div className='items-center justify-center grid grid-cols-2 md:grid-cols-2 gap-12  '>
+      <Card img={Comida} text='Fuertes'/>
+      <Card img={Beef} text='Carnes'/>
+      <Card img={Ensalada} text='Digestivos'/>
+      <Card img={Postres} text='Postres'/>
+      <Card img={Entradas} text='Entradas'/>
+      <Card img={Bebidas} text='Bebidas'/>
+      <Card img={Aperitivo} text='Aperitivos'/>
+      <Card img={Compartir} text='Para Compartir'/>
+      <Card img={Sangria} text='Sangria'/>
+      <Card img={Tequila} text='Tequila'/>
+      <Card img={Gintonic} text='Gin Tonic'/>
+      <Card img={Cocktail} text='Cocktail'/>
+      <Card img={Vino} text='Vino'/>
+      <Card img={Aguardiente} text='Aguardiente'/>
+      <Card img={Cognac} text='Cognac'/>
+      <Card img={Ron} text='Ron'/>
+      <Card img={Vodka} text='Vodka'/>
+      <Card img={Whisky} text='Whisky'/>
     </div>
 
   </div>
