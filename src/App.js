@@ -1,6 +1,7 @@
 import './App.css';
 import Nav from './components/Nav.js';
 import Welcome from './components/Welcome.js';
+import Menu from './components/Menu';
 import {
   createBrowserRouter,
   RouterProvider, Outlet,
@@ -24,6 +25,10 @@ function App() {
         {
           path: "/",
           element: <Welcome />
+        },
+        {
+          path: "/menu",
+          element: <Menu />
         },
 
       ]

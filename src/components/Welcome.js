@@ -19,6 +19,10 @@ import Vino from '../Images/vino.png'
 import Vodka from '../Images/vodka.png'
 import Whisky from '../Images/whisky.png'
 import Bebidas from '../Images/bebidas.png'
+import { Link } from 'react-router-dom';
+
+
+
 
 function Welcome() {
   return (
@@ -35,7 +39,9 @@ function Welcome() {
       </div>
  
     <div className='items-center justify-center grid grid-cols-2 md:grid-cols-2 gap-12  '>
-      <Card img={Comida} text='Fuertes'/>
+      <Link to='/menu'>
+        <Card img={Comida} text='Fuertes'/>
+      </Link>
       <Card img={Beef} text='Carnes'/>
       <Card img={Ensalada} text='Digestivos'/>
       <Card img={Postres} text='Postres'/>
@@ -57,6 +63,7 @@ function Welcome() {
 
   </div>
     
+
   )
 }
 
