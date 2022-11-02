@@ -42,7 +42,9 @@ function Welcome() {
       <Link to='/menu'>
         <Card img={Comida} text='Fuertes'/>
       </Link>
+      <Link to='/menu'>
       <Card img={Beef} text='Carnes'/>
+      </Link>
       <Card img={Ensalada} text='Digestivos'/>
       <Card img={Postres} text='Postres'/>
       <Card img={Entradas} text='Entradas'/>

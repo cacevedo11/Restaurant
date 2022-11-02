@@ -1,7 +1,9 @@
 import './App.css';
 import Nav from './components/Nav.js';
 import Welcome from './components/Welcome.js';
-import Menu from './components/Menu';
+import Menu from './components/Menu.js';
+import Login from './components/Login.js'
+import Register from './components/Register.js'
 import {
   createBrowserRouter,
   RouterProvider, Outlet,
@@ -30,9 +32,18 @@ function App() {
           path: "/menu",
           element: <Menu />
         },
-
-      ]
-    }
+      ],
+    },
+    {
+      path: "/login",
+      element: <Login />
+    },
+    {
+      path: "/register",
+      element: <Register />
+    },
+   
+        
   ]);
 
   return (

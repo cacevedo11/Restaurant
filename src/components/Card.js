@@ -8,6 +8,6 @@ function Card({img, text}) {
             <h3 className='my-[0] text-white font-poppins text-2xl font-normal'>{text}</h3>
     </div>
   )
-}
+} 
 
 export default Card
